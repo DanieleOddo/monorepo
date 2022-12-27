@@ -1,0 +1,31 @@
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-prettier"
+    ],
+    "customSyntax": [
+        "postcss-syntax",
+        "postcss-lit",
+        "postcss-styled"
+    ],
+    "rules": {
+        "declaration-colon-newline-after": "always-multi-line",
+        "property-no-unknown": [
+            true,
+            {
+                "ingnoreProperties": [
+                    "content-visibility"
+                ]
+            }
+        ]
+    },
+    "ignoreFiles": [
+        "build/**",
+        "coverage/**",
+        "dist/**",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx"
+    ]
+}
