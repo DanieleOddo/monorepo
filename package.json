@@ -1,0 +1,43 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/node": "^18.11.18",
+    "@vitest/coverage-c8": "^0.26.2",
+    "autoprefixer": "^10.4.13",
+    "cross-fetch": "^3.1.5",
+    "eslint": "^8.30.0",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-testing-library": "^5.9.1",
+    "install": "^0.13.0",
+    "jsdom": "^20.0.3",
+    "lerna": "^6.1.0",
+    "msw": "^0.49.2",
+    "postcss": "^8.4.20",
+    "postcss-lit": "^1.0.1",
+    "postcss-nesting": "^10.2.0",
+    "postcss-styled": "^0.34.0",
+    "postcss-syntax": "^0.36.2",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4",
+    "vitest": "^0.26.2"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^8.19.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "click-to-react-component": "^1.0.8",
+    "husky": "^8.0.2",
+    "mrm": "3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-doom": "^1.0.0"
+  }
+}
